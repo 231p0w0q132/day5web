@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+.d-flex {
+    display: flex;
+}
+.ml-auto {
+    margin-left: auto;
+}
