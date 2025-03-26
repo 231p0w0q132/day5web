@@ -6,5 +6,5 @@ shortcu.addEventListener("mouseenter",showLayer);
 function showLayer() {
     //숨겨둔 레이어 찾아서 표시
     const layer1 = document.querySelector("#layer1");
-    console.log(layer1);
+    layer1.style.display ="block";
 }
