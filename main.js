@@ -1,7 +1,7 @@
 /// 바로가기 메뉴(.shortcu) 마우스 닿으면(mouseeenter), 숨겨진 하위 메뉴 덩어리 표시
 const shortcu = document.querySelector(".shortcu");
 
-shortcu.addEventListener("mouseenter",showLayer);
+shortcu.addEventListener("click",showLayer);
 
 function showLayer() {
     //숨겨둔 레이어 찾아서 표시
