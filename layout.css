@@ -19,6 +19,9 @@
 .gap-3 {
     gap: 3rem;
 }
+.gap-5 {
+    gap:5rem;
+}
 .ml-auto {
     margin-left: auto;
     
@@ -137,4 +140,62 @@ fieldset{
 }
 #search-btn {
     margin-left: auto;
+}
+/* --------------------------*/
+.main-area{
+    width: 70%;
+}
+.ad {
+    height: 130px;
+    background-color: burlywood;
+}
+.news {
+    height: 350px;
+    background-color: aquamarine;
+}
+.shopping {
+    height: 150px;
+    background-color:crimson;
+}
+
+.sub-area{
+    min-width: 250px;
+}
+.login {
+    background-color: coral;
+    height: 120px;
+}
+.happy-bean {
+    height: 180px;
+    background-color: deeppink;
+}
+.memorial {
+    height: 100px;
+    background-color: deepskyblue;
+}
+footer {
+    padding-top: 50px;
+    height: 500px;
+} 
+.one {
+    height: 200px;
+    background-color: red;
+    justify-content: space-between;
+}
+.two {
+    height: 100px;
+    background-color: orange;
+}
+.three {
+    height: 100px;
+    background-color: yellow;
+}
+.four {
+    height: 100px;
+    background-color: green;
+}
+.one-item {
+    width: 470px;
+    height: 200px;
+    border: 1px solid black;
 }
